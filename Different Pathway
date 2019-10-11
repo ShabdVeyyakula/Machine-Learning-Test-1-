@@ -1,0 +1,15 @@
+#data reprocessing
+
+#importing libraries
+
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+
+#Importing the DataSet
+
+#This is a different File path instead of just calling it Data.csv.  It seems to be working in Visual Studio code.  Fix the error in Spyder IDLE.
+
+dataset = pd.read_csv('Machine-Learning-Test-1--master\Data.csv')
+
+
